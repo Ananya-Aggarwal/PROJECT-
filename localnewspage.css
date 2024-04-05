@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: aliceblue;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(sports100.webp);
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 350px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.col .line{
+    width: 350px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc026b;
+    border-radius: 30px;
+    color: whitesmoke
+}
+
+.row .col .line{
+    width: 250px;
+    height: 4px;
+    background: #fc026b;
+    margin: 2px auto;
+    border-radius: 5px;
+
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.row .col {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ctn2{
+    padding: 8px 15px;
+    background: #fc026b;
+    border-radius: 30px;
+    color: whitesmoke
+}
+.ctn3{
+    padding: 8px 15px;
+    background: #fc026b;
+    border-radius: 30px;
+    color: whitesmoke
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+.row h4{
+    font-size: 3vmin;
+    color: #fc026b;
+    margin: 18px auto;
+    font-size: 4vmin;
+}
+
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+} 
+
+.events .ctn{
+    margin-top: 30px;
+}
+
+
+.explore{
+    width: 100%;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    background-image: url('sports101.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: #e8e0e0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    font-size: 7vmin;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+}
+
+.explore-content p{
+    color: rgb(221, 221, 221);
+
+}
+.explore1{
+    width: 100%;
+    height: 80vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    background-image: url('sports104.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.explore-content1{
+    width: 60%;
+    padding: 50px;
+    color: #e8e0e0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content1 h1{
+    font-size: 7vmin;
+}
+
+.explore-content1 .line1{
+    margin-bottom: 50px;
+    width: 350px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.explore-content1 p{
+    color: rgb(221, 221, 221);
+
+}
+
+.explore2{
+    width: 100%;
+    height: 80vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    background-image: url('sportsnews11.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.explore-content2{
+    width: 60%;
+    padding: 50px;
+    color: #e8e0e0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content2 h1{
+    font-size: 7vmin;
+}
+
+.explore-content2 .line2{
+    margin-bottom: 50px;
+    width: 350px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.explore-content2 p{
+    color: rgb(221, 221, 221);
+}
+
+.explore3{
+    width: 100%;
+    height: 80vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    background-image: url('sportsnews14.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.explore-content3{
+    width: 60%;
+    padding: 50px;
+    color: #e8e0e0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content3 h1{
+    font-size: 7vmin;
+}
+
+.explore-content3 .line3{
+    margin-bottom: 50px;
+    width: 350px;
+    height: 4px;
+    background: #fc026b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.explore-content3 p{
+    color: rgb(221, 221, 221);
+}
